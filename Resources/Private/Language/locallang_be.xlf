@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-05-16T03:22:12Z" product-name="tx_hwtkesearchextended">
+		<header/>
+		<body>
+			<trans-unit id="extmgm.removeIndexerTypes" xml:space="preserve">
+				<source>Remove Indexer Types: 0=pages,1=ke_yac,2=tt_news,3=tx_dam,4=tt_address,5=tt_content,6=files,7=t3s_content,8=templaVoila,9=mm_forum,10=comments,11=news,12=a21glossary</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

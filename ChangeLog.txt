@@ -1,0 +1,4 @@
+0.0.1-beta 2015-05-16 Heiko Westermann <hwt3@gmx.de>
+	* Initial setup
+    * Feature: Suggest wizard for select/group fields to select storage and target pages.
+    * Feature: Remove indexer types from selection, configured in extension settings.
