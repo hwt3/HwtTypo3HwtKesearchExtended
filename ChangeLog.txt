@@ -1,3 +1,6 @@
+0.0.2-beta 2015-05-17 Heiko Westermann <hwt3@gmx.de>
+	* Feature: Xclass for backend module: shows count for each indexer type in informations about index table.
+
 0.0.1-beta 2015-05-16 Heiko Westermann <hwt3@gmx.de>
 	* Initial setup
     * Feature: Suggest wizard for select/group fields to select storage and target pages.
