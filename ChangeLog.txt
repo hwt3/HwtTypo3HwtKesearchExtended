@@ -1,7 +1,10 @@
-0.0.2-beta 2015-05-17 Heiko Westermann <hwt3@gmx.de>
+0.0.3-alpha 2015-05-30 Heiko Westermann <hwt3@gmx.de>
+	* Feature: Extended Xclass for backend module to integrate in common backend styling.
+
+0.0.2-alpha 2015-05-17 Heiko Westermann <hwt3@gmx.de>
 	* Feature: Xclass for backend module: shows count for each indexer type in informations about index table.
 
-0.0.1-beta 2015-05-16 Heiko Westermann <hwt3@gmx.de>
+0.0.1-alpha 2015-05-16 Heiko Westermann <hwt3@gmx.de>
 	* Initial setup
     * Feature: Suggest wizard for select/group fields to select storage and target pages.
     * Feature: Remove indexer types from selection, configured in extension settings.
