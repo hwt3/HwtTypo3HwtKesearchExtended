@@ -4,7 +4,7 @@
 		<header/>
 		<body>
 			<trans-unit id="extmgm.removeIndexerTypes" xml:space="preserve">
-				<source>Remove Indexer Types: 0=pages,1=ke_yac,2=tt_news,3=tx_dam,4=tt_address,5=tt_content,6=files,7=t3s_content,8=templaVoila,9=mm_forum,10=comments,11=news,12=a21glossary</source>
+				<source>Remove Indexer Types: 0=pages,1=ke_yac,2=tt_news,3=tt_address,4=tt_content,5=files,6=t3s_content,7=templaVoila,8=mm_forum,9=comments,10=news,11=a21glossary</source>
 			</trans-unit>
 		</body>
 	</file>

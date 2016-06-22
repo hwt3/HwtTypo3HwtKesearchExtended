@@ -1,2 +1,2 @@
 	# cat=Basic/enable/103; type=string; label=LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_be.xlf:extmgm.removeIndexerTypes
-removeIndexerTypes = 1,2,3,4,7,8,9,10,11,12
+removeIndexerTypes = 1,2,3,6,7,8,9,10,11

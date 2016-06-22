@@ -17,12 +17,7 @@ $GLOBALS['TCA']['tx_kesearch_indexerconfig']['columns']['storagepid']['config'][
 // Extension manager configuration
 $emConfiguration = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['hwt_kesearch_extended']);
 
-//var_dump($GLOBALS['TCA']['tx_kesearch_indexerconfig']['columns']['type']['config']['items']);
-
 // remove indexer types set in extension settings
 foreach(explode(',', $emConfiguration['removeIndexerTypes']) as $removeIndexerType) {
     unset($GLOBALS['TCA']['tx_kesearch_indexerconfig']['columns']['type']['config']['items'][$removeIndexerType]);
 }
-
-//var_dump($GLOBALS['TCA']['tx_kesearch_indexerconfig']['columns']['type']['config']['items']);
-//die();
