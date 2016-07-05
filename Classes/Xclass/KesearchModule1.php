@@ -206,7 +206,7 @@ class Tx_HwtKesearchExtended_Xclass_KesearchModule1 extends tx_kesearch_module1 
 					// no lock set - show "start indexer" link if indexer configurations have been found
 					if ($indexerConfigurations) {
 						$moduleUrl = TYPO3\CMS\Backend\Utility\BackendUtility::getModuleUrl('web_txkesearchM1', array('id' => $this->id, 'do' => 'startindexer'));
-						$content .= '<br /><a class="t3-button" href="' . $moduleUrl . '">' . $GLOBALS['LANG']->getLL('start_indexer') . '</a>';
+						$content .= '<br /><a class="t3-button btn btn-info" href="' . $moduleUrl . '">' . $GLOBALS['LANG']->getLL('start_indexer') . '</a>';
 					} else {
 						$content .= '<div class="alert alert-info">' . $GLOBALS['LANG']->getLL('no_indexer_configurations') . '</div>';
 					}
@@ -267,7 +267,7 @@ class Tx_HwtKesearchExtended_Xclass_KesearchModule1 extends tx_kesearch_module1 
 
 					// show "clear index" link
 					$moduleUrl = TYPO3\CMS\Backend\Utility\BackendUtility::getModuleUrl('web_txkesearchM1', array('id' => $this->id, 'do' => 'clear'));
-					$content .= '<br /><a class="t3-button" href="' . $moduleUrl . '"><span class="t3-icon t3-icon-actions t3-icon-dialog-error">&nbsp;</span> Clear whole search index!</a>';
+					$content .= '<br /><a class="t3-button btn btn-danger" href="' . $moduleUrl . '"><span class="t3-icon t3-icon-actions t3-icon-dialog-error">&nbsp;</span> Clear whole search index!</a>';
 				} else {
 					$content .= '<p>Clear search index: This function is available to admins only.</p>';
 				}
