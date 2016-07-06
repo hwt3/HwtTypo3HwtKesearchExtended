@@ -3,7 +3,13 @@
 Name the extension folder "hwt_kesearch_extended"!
 
 ###About: 
-This TYPO3 extension extends the ke_search extension. It adds the suggest wizard to select/group fields for page selection and the possibility to disable unneeded indexer types via extension settings. It changes the layout of the ke_search backend module to better integrate in TYPO3 backend look.
+This TYPO3 extension extends the ke_search extension. It adds the following features and better integrates in the TYPO3 backend styling.   
+
+###Features:   
+- Suggest wizard to select/group fields for page selection in ke_search <= 2.1.0
+- Adds ke_search with pagetree icon to "sysfolder contains" selection
+- Possibility to disable unneeded indexer types via extension settings
+- Changed layout of the ke_search backend module to better integrate in common look and feel   
 
 ## Versions
 0.0.x for ke_search 1.8.4, untested for >1.8.4  
