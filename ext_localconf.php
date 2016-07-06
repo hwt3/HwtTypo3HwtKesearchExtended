@@ -4,5 +4,21 @@ if (!defined ('TYPO3_MODE')) {
 }
 
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects']['tx_kesearch_module1'] = array(
- 'className' => 'Tx_HwtKesearchExtended_Xclass_KesearchModule1'
+    'className' => 'Tx_HwtKesearchExtended_Xclass_KesearchModule1'
 );
+
+
+// Register page icon
+if (TYPO3_MODE === 'BE') {
+    // For TYPO3 7.x, older version just need tca.php codes
+    if ( version_compare(TYPO3_version, '7.0.0') >= 0 ) {
+        /** @var \TYPO3\CMS\Core\Imaging\IconRegistry $iconRegistry */
+        $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Imaging\\IconRegistry');
+
+        $iconRegistry->registerIcon(
+            'apps-pagetree-folder-contains-kesearch',
+            'TYPO3\\CMS\\Core\\Imaging\IconProvider\\BitmapIconProvider',
+            array('source' => 'EXT:ke_search/ext_icon.gif')
+        );
+    }
+}
