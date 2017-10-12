@@ -1,8 +1,9 @@
 <?php
 
 if (!defined('TYPO3_MODE')) {
-	die ('Access denied.');
+    die ('Access denied.');
 }
+
 
 /*
  * Modify tca of ke_search indexerconfig for versions lower than 2.1.0
