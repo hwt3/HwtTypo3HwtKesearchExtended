@@ -13,7 +13,7 @@ This TYPO3 extension extends the ke_search extension. It adds the following feat
 - Made additional labels translatable
 
 ## Versions
-0.0.x for ke_search 1.8.4, untested for >1.8.4
-2.0.0 for ke_search 2.0.0 - 2.1.0 / TYPO3 6.2
-&gt;= 2.0.1 for ke_search 2.0.0 - 2.2.1 / TYPO3 6.2.x - 7.6.x / PHP 5.3 - PHP 7.0
-&gt;= 2.5.0 for ke_search &gt;= 2.5.0 / TYPO3 7.6.x - 8.7.x / PHP 5.3 - PHP 7.1
+- 0.0.x for ke_search 1.8.4, untested for >1.8.4
+- 2.0.0 for ke_search 2.0.0 - 2.1.0 / TYPO3 6.2
+- &gt;= 2.0.1 for ke_search 2.0.0 - 2.2.1 / TYPO3 6.2.x - 7.6.x / PHP 5.3 - PHP 7.0
+- &gt;= 2.5.0 for ke_search &gt;= 2.5.0 / TYPO3 7.6.x - 8.7.x / PHP 5.3 - PHP 7.1
