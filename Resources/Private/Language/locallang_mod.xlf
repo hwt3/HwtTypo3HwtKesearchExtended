@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-10-12T03:22:12Z" product-name="tx_hwtkesearchextended">
+		<header/>
+		<body>
+			<trans-unit id="indextable_info.records_total" xml:space="preserve">
+				<source>Records total:</source>
+			</trans-unit>
+			<trans-unit id="indextable_info.records_by_indexer" xml:space="preserve">
+				<source>Records by indexer:</source>
+			</trans-unit>
+			<trans-unit id="indextable_info.data_size" xml:space="preserve">
+				<source>Data size:</source>
+			</trans-unit>
+			<trans-unit id="indextable_info.index_size" xml:space="preserve">
+				<source>Index size:</source>
+			</trans-unit>
+			<trans-unit id="indextable_info.complete_table_size" xml:space="preserve">
+				<source>Complete table size:</source>
+			</trans-unit>
+
+
+			<trans-unit id="clear_index.do" xml:space="preserve">
+				<source>Clear whole search index!</source>
+			</trans-unit>
+			<trans-unit id="clear_index.adminsonly" xml:space="preserve">
+				<source>Clear search index: This function is available to admins only.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

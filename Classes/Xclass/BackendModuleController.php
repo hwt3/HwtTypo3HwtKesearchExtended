@@ -11,7 +11,7 @@ class BackendModuleController extends \TeaminmediasPluswerk\KeSearch\Controller\
     /*
      * function renderIndexTableInformation
      *
-     * HWT: Changed presentation of records
+     * HWT: Changed presentation of records and changed translations
      */
     function renderIndexTableInformation() {
 
@@ -31,11 +31,21 @@ class BackendModuleController extends \TeaminmediasPluswerk\KeSearch\Controller\
                 $content .= '
                     <table class="t3-table statistics">
                         <tr class="even">
-                            <td class="infolabel">Records total: </td>
+                            <td class="infolabel">' .
+                                LocalizationUtility::translate(
+                                    'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_mod.xlf:indextable_info.records_total',
+                                    'HwtKesearchExtended'
+                                ) .
+                            '</td>
                             <td>'.$row['Rows'].'</td>
                         </tr>
                         <tr class="odd">
-                            <td class="infolabel">Records by indexer: </td>
+                            <td class="infolabel">' .
+                                LocalizationUtility::translate(
+                                    'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_mod.xlf:indextable_info.records_by_indexer',
+                                    'HwtKesearchExtended'
+                                ) .
+                            '</td>
                             <td>';
 
                 $results_per_type = $this->getNumberOfRecordsInIndexPerType();
@@ -48,15 +58,30 @@ class BackendModuleController extends \TeaminmediasPluswerk\KeSearch\Controller\
                 $content .= '</td>
                         </tr>
                         <tr class="even">
-                            <td class="infolabel">Data size: </td>
+                            <td class="infolabel">' .
+                                LocalizationUtility::translate(
+                                    'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_mod.xlf:indextable_info.data_size',
+                                    'HwtKesearchExtended'
+                                ) .
+                            '</td>
                             <td>'.$dataLength.'</td>
                         </tr>
                         <tr class="odd">
-                            <td class="infolabel">Index size: </td>
+                            <td class="infolabel">' .
+                                LocalizationUtility::translate(
+                                    'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_mod.xlf:indextable_info.index_size',
+                                    'HwtKesearchExtended'
+                                ) .
+                            '</td>
                             <td>'.$indexLength.'</td>
                         </tr>
                         <tr class="even">
-                            <td class="infolabel">Complete table size: </td>
+                            <td class="infolabel">' .
+                                LocalizationUtility::translate(
+                                    'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_mod.xlf:indextable_info.complete_table_size',
+                                    'HwtKesearchExtended'
+                                ) .
+                            '</td>
                             <td>'.$completeLength.'</td>
                         </tr>';
             }
@@ -181,7 +206,7 @@ class BackendModuleController extends \TeaminmediasPluswerk\KeSearch\Controller\
     /**
      * Clear search index action
      *
-     * HWT: Changed button output format
+     * HWT: Changed button output format and translations
      *
      * @return	void
      */
@@ -213,9 +238,19 @@ class BackendModuleController extends \TeaminmediasPluswerk\KeSearch\Controller\
                 array('id' => $this->id, 'do' => 'clear')
             );
             // Changed by HWT
-            $content .= '<br /><a class="t3-button btn btn-danger" href="' . $moduleUrl . '"><span class="fa-stack fa-lg callout-icon"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-info fa-stack-1x" style="color:#a32e2e;"></i></span> Clear whole search index!</a>';
+            $content .= '<br /><a class="t3-button btn btn-danger" href="' . $moduleUrl . '"><span class="fa-stack fa-lg callout-icon"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-info fa-stack-1x" style="color:#a32e2e;"></i></span>' .
+                LocalizationUtility::translate(
+                    'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_mod.xlf:clear_index.do',
+                    'HwtKesearchExtended'
+                ) .
+                '</a>';
         } else {
-            $content .= '<p>Clear search index: This function is available to admins only.</p>';
+            $content .= '<p>' .
+                LocalizationUtility::translate(
+                    'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_mod.xlf:clear_index.adminsonly',
+                    'HwtKesearchExtended'
+                ) .
+                '</p>';
         }
         $this->view->assign('content', $content);
     }

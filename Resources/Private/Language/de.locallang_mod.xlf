@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-10-12T03:22:12Z" product-name="tx_hwtkesearchextended">
+		<header/>
+		<body>
+			<trans-unit id="indextable_info.records_total" xml:space="preserve">
+				<target>Anzahl indexierter Datensätze:</target>
+			</trans-unit>
+			<trans-unit id="indextable_info.records_by_indexer" xml:space="preserve">
+				<target>Anzahl je Indexer:</target>
+			</trans-unit>
+			<trans-unit id="indextable_info.data_size" xml:space="preserve">
+				<target>Datenmenge:</target>
+			</trans-unit>
+			<trans-unit id="indextable_info.index_size" xml:space="preserve">
+				<target>Datengröße des Index:</target>
+			</trans-unit>
+			<trans-unit id="indextable_info.complete_table_size" xml:space="preserve">
+				<target>Gesamte Tabellengröße:</target>
+			</trans-unit>
+
+
+			<trans-unit id="clear_index.do" xml:space="preserve">
+				<target>Gesamten Index löschen!</target>
+			</trans-unit>
+			<trans-unit id="clear_index.adminsonly" xml:space="preserve">
+				<target>Suchindex leeren: Diese Funktion ist nur für Admins verfügbar.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
