@@ -16,24 +16,9 @@ if (TYPO3_MODE === 'BE') {
 
         // add select option for ke_search
         $GLOBALS['TCA']['pages']['columns']['module']['config']['items'][] = array(
-            0 => 'LLL:EXT:ke_search/mod1/locallang.xlf:title',
+            0 => 'LLL:EXT:hwt_kesearch_extended/Resources/Private/Language/locallang_be.xlf:folder',
             1 => 'kesearch',
             2 => 'apps-pagetree-folder-contains-kesearch'
-        );
-    }
-    else {
-            // TYPO3 6.x
-        $folderName = 'kesearch';
-        $folderPath = '../typo3conf/ext/ke_search/ext_icon.gif';
-
-        unset($GLOBALS['ICON_TYPES'][$folderName]);
-
-        \TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon('pages', 'contains-'.$folderName, $folderPath);
-
-        $GLOBALS['TCA']['pages']['columns']['module']['config']['items'][] = array(
-            0 => 'LLL:EXT:ke_search/mod1/locallang.xlf:title',
-            1 => $folderName,
-            2 => $folderPath
         );
     }
 }

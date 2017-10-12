@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-10-12T03:22:12Z" product-name="tx_hwtkesearchextended">
+        <header/>
+        <body>
+            <trans-unit id="folder" xml:space="preserve">
+                <target>Facettierte-Suche-Ordner</target>
+            </trans-unit>
+            <trans-unit id="extmgm.removeIndexerTypes" xml:space="preserve">
+                <target>Entferne Indexer-Typen: 0=pages,1=ke_yac,2=tt_news,3=tt_address,4=tt_content,5=files,6=t3s_content,7=templaVoila,8=mm_forum,9=comments,10=news,11=a21glossary,12=cal</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

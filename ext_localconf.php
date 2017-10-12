@@ -18,7 +18,7 @@ if (TYPO3_MODE === 'BE') {
         $iconRegistry->registerIcon(
             'apps-pagetree-folder-contains-kesearch',
             'TYPO3\\CMS\\Core\\Imaging\IconProvider\\BitmapIconProvider',
-            array('source' => 'EXT:ke_search/ext_icon.gif')
+            array('source' => 'EXT:ke_search/Resources/Public/Icons/ce_wiz.gif')
         );
     }
 }
