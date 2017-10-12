@@ -1,22 +1,28 @@
+2.5.0-beta 2017-10-12 Heiko Westermann <hwt3@gmx.de>
+    * Version 2.5.0-beta - Compatibility release
+    * [UPDATE] Additional translations
+    * [UPDATE] Compatibility to ke_search 2.5.0 and TYPO3 7.6 and 8.7
+    * [TASK] Code cleanup / corrected line indents.
+
 2.0.2-beta 2016-07-06 Heiko Westermann <hwt3@gmx.de>
-	* Feature: Added selectable folder icon for ke_search
+    * Feature: Added selectable folder icon for ke_search
 
 2.0.1-beta 2016-07-05 Heiko Westermann <hwt3@gmx.de>
     * Update: Tested for ke_search version 2.2.1
     * Update: Tested for TYPO3 7.6.x
     * Update: Tested for PHP 7.0.x
-	* Task: Updated meta data
+    * Task: Updated meta data
 
 2.0.0-beta 2016-06-23 Heiko Westermann <hwt3@gmx.de>
-	* Task: Support of ke_search >= 2.0.0
+    * Task: Support of ke_search >= 2.0.0
 
 0.0.3-alpha 2015-05-30 Heiko Westermann <hwt3@gmx.de>
-	* Feature: Extended Xclass for backend module to integrate in common backend styling.
+    * Feature: Extended Xclass for backend module to integrate in common backend styling.
 
 0.0.2-alpha 2015-05-17 Heiko Westermann <hwt3@gmx.de>
-	* Feature: Xclass for backend module: shows count for each indexer type in informations about index table.
+    * Feature: Xclass for backend module: shows count for each indexer type in informations about index table.
 
 0.0.1-alpha 2015-05-16 Heiko Westermann <hwt3@gmx.de>
-	* Initial setup
+    * Initial setup
     * Feature: Suggest wizard for select/group fields to select storage and target pages.
     * Feature: Remove indexer types from selection, configured in extension settings.
