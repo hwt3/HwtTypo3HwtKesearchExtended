@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:hwt_kesearch_extended/Configuration/TypoScript/Backend/setup.txt">

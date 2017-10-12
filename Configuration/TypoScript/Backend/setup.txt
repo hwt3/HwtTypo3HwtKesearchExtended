@@ -1,0 +1,8 @@
+module.tx_kesearch {
+    view {
+        layoutRootPaths {
+            #10 = EXT:ke_search/Resources/Private/Layouts/
+            20 = EXT:hwt_kesearch_extended/Resources/Private/Layouts/
+        }
+    }
+}
